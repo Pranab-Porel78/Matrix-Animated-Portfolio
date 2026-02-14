@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pranab Porel | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">Pranab Porel</h2>
+
+        <div class="menu-toggle" id="menu-toggle">
+          ☰
+        </div>
+        <ul class="nav-links"  id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+
+    <!-- Matrix Canvas -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <div class="hero-container">
+        <h1>Hi, I'm <span>Pranab Porel</span></h1>
+        <h2 class="typing-text"><span id="typing"></span></h2>
+
+        <p class="hero-subtext">
+            Full Stack Developer | Networking Enthusiast | Problem Solver
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="PRANAB_CV.pdf" download class="btn-secondary">
+                Download Resume
+            </a>
+        </div>
+    </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+    <h2>About Me</h2>
+
+    <div class="about-container">
+
+        <!-- Profile Image -->
+        <div class="about-image">
+            <img src="assets/images/profile.jpg" alt="Pranab Porel">
+        </div>
+
+        <!-- Content -->
+        <div class="about-content">
+
+            <h3>Hi, I'm Pranab 👋</h3>
+
+            <p class="about-short">
+                Full Stack Developer & Networking Enthusiast.
+                I build modern web applications and solve real-world problems.
+            </p>
+
+            <!-- Expertise -->
+            <div class="expertise">
+                <span>MERN Stack</span>
+                <span>Full Stack</span>
+                <span>DSA</span>
+                <span>Networking</span>
+                <span>System Administration</span>
+                <span>Problem Solving</span>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="about-stats">
+                <div class="stat">
+                    <h4>5+</h4>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat">
+                    <h4>50+</h4>
+                    <p>DSA Solved</p>
+                </div>
+
+                <div class="stat">
+                    <h4>2+</h4>
+                    <p>Years Coding</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+
+
+    <!-- Education -->
+    <section id="education" class="section" data-aos="fade-up">
+    <h2>Education Roadmap</h2>
+
+    <div class="premium-roadmap">
+
+        <!-- STEP 1 -->
+        <div class="step">
+            <div class="box top">
+                <h3>Class 10</h3>
+                <p><strong>Year:</strong> 2018 - 2019</p>
+                <p><strong>Status:</strong> Completed</p>
+                <p><strong>Institute:</strong> Parulia Vivekananda Sikshayatan High School</p>
+            </div>
+
+            <div class="vertical-line"></div>
+            <div class="circle completed">📘</div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step">
+            <div class="circle completed">🎯</div>
+            <div class="vertical-line"></div>
+
+            <div class="box bottom">
+                <h3>Higher Secondary</h3>
+                <p><strong>Year:</strong> 2020 - 2021</p>
+                <p><strong>Status:</strong> Completed</p>
+                <p><strong>Institute:</strong> krishnanagar High School</p>
+            </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step">
+            <div class="box top">
+                <h3>BCA</h3>
+                <p><strong>Year:</strong> 2021 - 2024</p>
+                <p><strong>Status:</strong> Completed</p>
+                <p><strong>Institute:</strong> Management Institute of Durgapur</p>
+            </div>
+             
+            <div class="vertical-line"></div>
+            <div class="circle completed">💻</div>
+            
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="step">
+            <div class="circle pursuing">🎓</div>
+            <div class="vertical-line"></div>
+
+            <div class="box bottom">
+                <h3>MCA</h3>
+                <p><strong>Year:</strong> 2024 - 2026</p>
+                <p><strong>Status:</strong> Pursuing</p>
+                <p><strong>Institute:</strong> Kalyani Government Engineering College</p>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+
+
+
+    <!-- Skills -->
+     <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-wrapper">
+
+        <!-- Programming -->
+        <div class="skill-category">
+            <h3>Programming</h3>
+
+            <div class="skill">
+                <span><i class="fas fa-code"></i> C++</span>
+                <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fab fa-js"></i> JavaScript</span>
+                <div class="progress"><div class="progress-bar" data-width="50%"></div></div>
+            </div>
+
+            
+            <div class="skill">
+                <span><i class="fab fa-python"></i> Python</span>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-category">
+            <h3>Frontend</h3>
+
+            <div class="skill">
+                <span><i class="fab fa-html5"></i> HTML</span>
+                <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fab fa-css3-alt"></i> CSS</span>
+                <div class="progress"><div class="progress-bar" data-width="95%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fab fa-react"></i> Javascript</span>
+                <div class="progress"><div class="progress-bar" data-width="55%"></div></div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category">
+            <h3>Backend</h3>
+
+            <div class="skill">
+                <span><i class="fab fa-node-js"></i> Node.js</span>
+                <div class="progress"><div class="progress-bar" data-width="40%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fas fa-database"></i> MongoDB</span>
+                <div class="progress"><div class="progress-bar" data-width="60%"></div></div>
+            </div>
+        </div>
+
+        <!-- Networking -->
+        <div class="skill-category">
+            <h3>Networking</h3>
+
+            <div class="skill">
+                <span><i class="fas fa-network-wired"></i> Routing</span>
+                <div class="progress"><div class="progress-bar" data-width="55%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fas fa-ethernet"></i> Switching</span>
+                <div class="progress"><div class="progress-bar" data-width="55%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fas fa-project-diagram"></i> Subnetting</span>
+                <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fas fa-server"></i> Cisco Packet Tracer</span>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fas fa-desktop"></i> Virtualization</span>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+        </div>
+
+        <!-- Operating Systems -->
+        <div class="skill-category">
+            <h3>Operating Systems</h3>
+
+            <div class="skill">
+                <span><i class="fab fa-windows"></i> Windows</span>
+                <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fab fa-linux"></i> Kali Linux</span>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span><i class="fab fa-ubuntu"></i> Ubuntu</span>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+        </div>
+
+    </div>
+   </section>
+
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="section" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="projects-wrapper">
+        <div class="project-card">
+
+    <div class="project-image">
+        <img src="assets\images\Face_Recognize_system.jpg" alt="Face Recognize Attendance System">
+    </div>
+
+    <div class="project-content">
+        <h3>Face Recognize Attendance System</h3>
+        <p>
+            A Full stack application allowing students to mark their attendance using facial recognition technology.
+        </p>
+
+        <div class="project-buttons">
+            <a href="https://github.com/Pranab-Porel78/Attendance-system"
+               target="_blank" 
+               class="github-btn">
+               <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+
+    </div>
+    <div class="project-card">
+
+    <div class="project-image">
+        <img src="assets\images\Resource_finder.png" alt="College Resources Finder">
+    </div>
+
+    <div class="project-content">
+        <h3>College Resources Finder</h3>
+        <p>
+            A Multipage website for BCA+MCA students to access learnig resources - Handwritten Notes, Quizzes, video lectures and more.
+        </p>
+
+        <div class="project-buttons">
+            <a href="https://github.com/Pranab-Porel78/Collage-resource-finder"
+               target="_blank" class="github-btn">
+               <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+
+    </div>
+    <div class="project-card">
+
+    <div class="project-image">
+        <img src="assets\images\Age_calculator.png" alt="Age Calculator">
+    </div>
+
+    <div class="project-content">
+        <h3>Age calculator </h3>
+        <p>
+           Age Calculator Webpage that calculates a person's age based on their date of birth. 
+
+        <div class="project-buttons">
+            <a href="https://github.com/Pranab-Porel78/Age-Calculator"
+               target="_blank" class="github-btn">
+               <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    </div>
+    </section>
+
+
+
+    <!-- Contact -->
+   <section id="contact" class="section">
+    <h2>Get In Touch</h2>
+
+    <div class="contact-wrapper">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+    <h3>Let’s Connect</h3>
+    <p>I’m open to internships, collaborations and tech discussions.</p>
+
+    <div class="social-icons">
+
+        <a href="https://linkedin.com/in/pranab-porel"
+           target="_blank" class="social-btn linkedin">
+            <i class="fab fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+        </a>
+
+        <a href="https://github.com/Pranab-Porel78"
+           target="_blank" class="social-btn github">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+        </a>
+
+        <a href="https://leetcode.com/u/pranabporel/"
+           target="_blank" class="social-btn leetcode">
+            <i class="fas fa-code"></i>
+            <span>LeetCode</span>
+        </a>
+
+        <a href="https://linktr.ee/pranab78"
+           target="_blank" class="social-btn linktree">
+            <i class="fas fa-link"></i>
+            <span>Linktree</span>
+        </a>
+
+    </div>
+    </div>
+
+
+        <!-- Contact Form -->
+        <form id="contact-form" class="premium-form">
+
+            <div class="input-group">
+                <input type="text" name="from_name" required>
+                <label>Your Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="from_email" required>
+                <label>Your Email</label>
+            </div>
+
+            <div class="input-group">
+                <textarea name="message" required></textarea>
+                <label>Your Message</label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+
+            <p id="form-message"></p>
+
+        </form>
+
+    </div>
+    </section>
+
+
+
+    <footer>
+        <p>© 2026 Pranab Porel. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+       AOS.init({
+        duration: 1000,
+        once: true
+       });
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+   <script>
+   (function(){
+      emailjs.init("JxxfMKYvR4fdaWmJo");
+      })();
+    </script>
+
+
+</body>
+</html>
