@@ -489,6 +489,17 @@ a {
     margin-top: 20px;
 }
 
+.top:hover {
+    transform: translateY(-10px);
+    border: 1px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56,189,248,0.6);
+}
+.bottom:hover {
+    transform: translateY(-10px);
+    border: 1px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56,189,248,0.6);
+}
+
 .box h3 {
     color: #38bdf8;
     margin-bottom: 10px;
@@ -606,6 +617,12 @@ a {
 .skill-category:hover {
     transform: translateY(-8px);
     border: 1px solid #38bdf8;
+}
+
+.skill-category:hover {
+    transform: translateY(-10px);
+    border: 1px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56,189,248,0.6);
 }
 
 .skill-category h3 {
